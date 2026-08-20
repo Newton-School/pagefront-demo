@@ -1,8 +1,5 @@
 {
   "cache": {
-    "rules": [
-      { "match": "/", "browser": 31536000, "edgeTtl": 31536000 },
-      { "match": "/index.html", "browser": 31536000, "edgeTtl": 31536000 }
-    ]
+    "rules": []
   }
 }
