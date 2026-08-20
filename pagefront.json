@@ -1,5 +1,9 @@
 {
   "cache": {
-    "rules": []
-  }
+    "rules": [
+      { "match": "/index.html", "browser": "no-cache", "edgeTtl": 300 },
+      { "match": "/downloads/**", "browser": 86400, "edgeTtl": 604800 }
+    ]
+  },
+  "robots": { "policy": "allow" }
 }
